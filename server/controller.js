@@ -3,7 +3,6 @@ const clientId = require('./client_ID')
 
 let pics = []
 
-// let clientId = 'f0b624dd7a2e11d'
 
 
 
