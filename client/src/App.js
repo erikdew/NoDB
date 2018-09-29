@@ -37,11 +37,11 @@ class App extends Component {
 
   render() {
     console.log('this.state', this.state)
-    let className = 'Display'
+    // let className = 'Display'
     const itemsToDisplay = this.state.pics.map((pic) => {
       return (
         <div>
-          {pic.images && <img className="display" src={pic.images[0].link} />}
+          {pic.images && <img className="display" src={pic.images[0].link} alt="searched images" />}
         </div>
       )
     })
